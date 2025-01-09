@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Logo, Organisation Name, and Slogan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 15%;
+        }
+        
+        .org-name {
+            width: 70%;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .slogan {
+            font-size: 18px;
+        }
+        
+        .extra-column {
+            width: 15%;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .items-table td {
+            padding: 5px;
+        }
+        
+        .address-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td class="logo" rowspan="2"><img src="LOGO (1).png" alt="Logo" width="100" height="100"></td>
+            <td class="org-name">Lovely Professional University</td>
+            <td rowspan="2">
+                <table border="1">
+                    <tr>
+                        <td>SML1</td>
+                        <td>SML2</td>
+                        <td>SML3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Address</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="slogan">Transforming Education Transforming India</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <table class="items-table" style="width: 100%;">
+                    <tr>
+                        <td>Item 1</td>
+                        <td>Item 2</td>
+                        <td>Item 3</td>
+                        <td>Item 4</td>
+                        <td>Item 5</td>
+                        <td>Item 6</td>
+                        <td>Item 7</td>
+                        <td>Item 8</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="">
+            <td>Left Side</td>
+            <td>Aside Content 1</td>
+            <td>Right Side</td>
+        </tr>
+        <tr>
+            <td colspan="3">Contact Us</td>
+        </tr>
+    </table>
+</body>
+
+</html>
